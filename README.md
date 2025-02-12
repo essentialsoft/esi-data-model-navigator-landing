@@ -1,1 +1,1 @@
-# data-model-navigator
+# ctdc-data-model-navigator-landing
