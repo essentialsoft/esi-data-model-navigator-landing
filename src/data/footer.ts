@@ -10,28 +10,23 @@ export const footerDetails: {
     subheading: "Empowering businesses with cutting-edge financial technology solutions.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Who We Are",
+            url: "https://www.essential-soft.com/who-we-are/"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "What We Do",
+            url: "https://www.essential-soft.com/what-we-do/"
         },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
+         {
+            text: "Contact Us",
+            url: "https://www.essential-soft.com/contact-us/"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    address: '9711 Washingtonian Blvd Suite 550 Gaithersburg, MD 20878',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        linkedin: 'https://www.linkedin.com/company/essential-software-inc./',
     }
 }
