@@ -38,11 +38,6 @@ const Header: React.FC = () => {
                                 </Link>
                             </li>
                         ))}
-                         <li>
-                                <Link href="#cta" className="text-foreground hover:text-foreground-accent transition-colors">
-                                    Documentation
-                                </Link>
-                        </li>
                         <li>
                                 <Link href="https://github.com/CBIIT/ctdc-data-model-navigator-landing" className="text-foreground hover:text-foreground-accent transition-colors" target="_blank" rel="noopener noreferrer">
                                     Github
