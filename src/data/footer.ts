@@ -3,8 +3,7 @@ import { IMenuItem, ISocials } from "@/types";
 export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
-    email: string;
-    telephone: string;
+    address: string;
     socials: ISocials;
 } = {
     subheading: "Empowering businesses with cutting-edge financial technology solutions.",
