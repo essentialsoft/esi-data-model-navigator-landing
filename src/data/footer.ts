@@ -27,6 +27,6 @@ export const footerDetails: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com/company/essential-software-inc./',
+        linkedin: 'https://www.linkedin.com/company/essential-software-inc/',
     }
 }
