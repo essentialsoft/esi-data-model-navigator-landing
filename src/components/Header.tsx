@@ -23,8 +23,8 @@ const Header: React.FC = () => {
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <FaFingerprint className="text-foreground min-w-fit w-7 h-7" />
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
+                        <img src="/images/ESI-logo-mobile.svg" alt="ESI Logo" className="min-w-fit w-7 h-7 pr-4" />
+                        <span className="manrope text-2xl font-semibold text-foreground cursor-pointer">
                             {siteDetails.siteName}
                         </span>
                     </Link>
