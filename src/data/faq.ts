@@ -1,25 +1,25 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `How many model files are supported?`,
+        answer: 'Data Model Navigator supports an unlimited number of model definition files, and will build an aggregate model automatically upon load. Whether your Data Common has 1 model file–or 30–Model Navigator will natively support it without any additional configuration.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Do I have to provide a model README?`,
+        answer: 'No. Both the model README and version history documents are optional resources for your end users to utilize; Model Navigator will simply hide any references to either of these resources if you choose not to provide them.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'What node categories are supported?',
+        answer: `Model Navigator supports the following node categories by default: Administrative, Study, Case, Biospecimen, Clinical Trial, Clinical, Analysis, and Data File. You may utilize any of these node categories within your Data Model MDF as many times as you need to, and more than one node can be assigned to the same category.
+`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'What filters are available by default?',
+        answer: 'Model Navigator supports filters for both Nodes and Properties. By default, end users can filter nodes by: Category, Model Assignment, Class. Likewise, they can filter properties by: Inclusion or UI Display.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'What model definitions are supported?',
+        answer: 'Data Model Navigator currently only supports the Graph Model Definition Framework (MDF). More information can be found here: https://github.com/CBIIT/bento-mdf'
     }
 ];
