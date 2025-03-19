@@ -4,8 +4,8 @@ export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
     email: string;
-    telephone: string;
     socials: ISocials;
+    address: string;
 } = {
     subheading: "Empowering businesses with cutting-edge financial technology solutions.",
     quickLinks: [
@@ -23,6 +23,7 @@ export const footerDetails: {
         }
     ],
     address: '9711 Washingtonian Blvd Suite 550 Gaithersburg, MD 20878',
+    email: 'modelnavigator@essential-soft.com', // Add email property
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',

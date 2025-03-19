@@ -2,7 +2,7 @@ export const siteDetails = {
     siteName: 'Data Model Navigator',
     siteUrl: '.',
     metadata: {
-        title: 'DMN- A Intuitive, Powerful, and Insightful Data Model Navigator for Bioinformatics',
+        title: 'DMN - A Intuitive, Powerful, and Insightful Data Model Navigator for Bioinformatics',
         description: 'Data Model Navigator offers intuitive data exploration with interactive graphs, powerful search, seamless exports, and integrated documentation, making it easy to visualize, manage, and maintain complex data models with efficiency and clarity.',
     },
     language: 'en-us',
