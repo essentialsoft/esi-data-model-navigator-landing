@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                                <Link href="https://github.com/CBIIT/ctdc-data-model-navigator-landing" className="text-foreground hover:text-foreground-accent transition-colors" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://github.com/essentialsoft/data-model-navigator" className="text-foreground hover:text-foreground-accent transition-colors" target="_blank" rel="noopener noreferrer">
                                     Github
                                 </Link>
                         </li>

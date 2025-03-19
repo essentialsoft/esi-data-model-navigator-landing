@@ -11,7 +11,7 @@ const CTA: React.FC = () => {
     const handleGenerate = () => {
         // Generate URL using the user provided clientAddress.
         // Adjust the base URL pattern as needed.
-        const url = `https://cbiit.github.io/crdc-data-model-navigator?config=${encodeURIComponent(clientAddress)}`;
+        const url = `https://d239aeeddrxgrw.cloudfront.net/?config=${encodeURIComponent(clientAddress)}`;
         setPersonalizedUrl(url);
     };
 
@@ -40,7 +40,7 @@ const CTA: React.FC = () => {
                         <div className="mt-8 flex flex-col items-center w-full">
                             <input
                                 type="text"
-                                placeholder="https://raw.githubusercontent.com/someone/dmn/refs/heads/main/config/"
+                                placeholder="https://raw.githubusercontent.com/essentialsoft/mock-mdf-model/refs/heads/main/7.1.9/"
                                 value={clientAddress}
                                 onChange={(e) => setClientAddress(e.target.value)}
                                 className="p-2 border rounded-md mb-4 text-black w-full max-w-2xl"
@@ -58,7 +58,7 @@ const CTA: React.FC = () => {
                                     Get personalized data model navigator URL
                                 </button>
                                 <button
-                                    onClick={() => window.open("https://cbiit.github.io/crdc-data-model-navigator", "_blank")}
+                                    onClick={() => window.open("https://d239aeeddrxgrw.cloudfront.net/", "_blank")}
                                     className="px-4 py-2 mb-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white"
                                 >
                                     Visit Demo Site
