@@ -11,7 +11,7 @@ const CTA: React.FC = () => {
     const handleGenerate = () => {
         // Generate URL using the user provided clientAddress.
         // Adjust the base URL pattern as needed.
-        const url = `https://d239aeeddrxgrw.cloudfront.net/?config=${encodeURIComponent(clientAddress)}`;
+        const url = `https://modelviewer-app.essential-soft.com/?config=${encodeURIComponent(clientAddress)}`;
         setPersonalizedUrl(url);
     };
 
