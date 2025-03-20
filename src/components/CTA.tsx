@@ -58,7 +58,7 @@ const CTA: React.FC = () => {
                                     Get personalized data model navigator URL
                                 </button>
                                 <button
-                                    onClick={() => window.open("https://d239aeeddrxgrw.cloudfront.net/", "_blank")}
+                                    onClick={() => window.open("https://modelviewer-app.essential-soft.com/", "_blank")}
                                     className="px-4 py-2 mb-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white"
                                 >
                                     Visit Demo Site
